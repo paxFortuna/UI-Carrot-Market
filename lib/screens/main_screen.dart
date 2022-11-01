@@ -23,12 +23,12 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       body: IndexedStack(
         index: _selectedIndex,
-        children: const [
-          HomeScreen(),
+        children: [
+          const HomeScreen(),
           NeighborhoodLifeScreen(),
-          NearMeScreen(),
-          ChattingScreen(),
-          MyCarrotScreen()
+          const NearMeScreen(),
+          const ChattingScreen(),
+          const MyCarrotScreen()
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
