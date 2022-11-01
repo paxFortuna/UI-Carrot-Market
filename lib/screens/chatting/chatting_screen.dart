@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../../models/chat_message.dart';
+import '../components/appbar_preferred_size.dart';
+import 'components/chat_container.dart';
+
 class ChattingScreen extends StatelessWidget {
   const ChattingScreen({Key? key}) : super(key: key);
 
@@ -13,8 +17,14 @@ class ChattingScreen extends StatelessWidget {
             color: Colors.black,
           ),
         ),
+          bottom: appBarBottomLine,
       ),
-      body: Container(),
+      body: ListView(
+        children: List.generate(
+          chatMessageList.length,
+              (index) => ChatContainer(chatMessage: chatMessageList[index]),
+        ),
+      ),
     );
   }
 }

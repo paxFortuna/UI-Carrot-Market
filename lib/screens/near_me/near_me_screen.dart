@@ -46,8 +46,8 @@ class NearMeScreen extends StatelessWidget {
       body: ListView(
         children: [
           const SizedBox(height: 10),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16),
             child: SearchTextField(),
           ),
           SizedBox(
