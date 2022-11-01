@@ -9,14 +9,14 @@ class IconMenu {
 }
 // 타로 첫번째 카드 일때
 final List<IconMenu> iconMenu1 = [
-  IconMenu(title: '내 동네 설정', iconData: FontAwesomeIcons.mapMarkerAlt),
-  IconMenu(title: '동네 인증하기', iconData: FontAwesomeIcons.compressArrowsAlt),
+  IconMenu(title: '내 동네 설정', iconData: FontAwesomeIcons.mapPin),
+  IconMenu(title: '동네 인증하기', iconData: FontAwesomeIcons.arrowPointer),
   IconMenu(title: '키워드 알림', iconData: FontAwesomeIcons.tag),
   IconMenu(title: '모아보기', iconData: FontAwesomeIcons.borderAll)
 ];
 // 타로 두번째 카드일 때
 final List<IconMenu> iconMenu2 = [
-  IconMenu(title: '동네생활 글', iconData: FontAwesomeIcons.edit),
+  IconMenu(title: '동네생활 글', iconData: FontAwesomeIcons.pen),
   IconMenu(title: '동네생활 댓글', iconData: FontAwesomeIcons.commentDots),
   IconMenu(title: '동네생활 주제 목록', iconData: FontAwesomeIcons.star)
 ];

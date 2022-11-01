@@ -50,7 +50,7 @@ class NeighborhoodLifeScreen extends StatelessWidget {
       appBar: _appBar,
       body: ListView(
         children: [
-          LifeHeader(),
+          const LifeHeader(),
           ...List.generate(
             neighborhoodLifeList.length,
             (index) => Padding(

@@ -5,6 +5,8 @@ import '../../../theme.dart';
 import '../../components/image_container.dart';
 
 class LifeHeader extends StatelessWidget {
+  const LifeHeader({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Card(

@@ -26,7 +26,7 @@ class _MainScreenState extends State<MainScreen> {
         children: [
           const HomeScreen(),
           NeighborhoodLifeScreen(),
-          const NearMeScreen(),
+          NearMeScreen(),
           const ChattingScreen(),
           const MyCarrotScreen()
         ],
