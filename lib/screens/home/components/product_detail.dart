@@ -8,7 +8,7 @@ import '../../../theme.dart';
 class ProductDetail extends StatelessWidget {
   final Product product;
 
-  const ProductDetail({required this.product});
+  const ProductDetail({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {

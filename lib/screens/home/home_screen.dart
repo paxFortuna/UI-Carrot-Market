@@ -13,25 +13,38 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Row(
           children: const [
-            Text('좌동', style: TextStyle(color: Colors.black),),
+            Text(
+              '좌동',
+              style: TextStyle(color: Colors.black),
+            ),
             SizedBox(width: 4.0),
             Icon(
               CupertinoIcons.chevron_down,
-              size: 15.0,  color: Colors.deepPurple,
+              size: 15.0,
+              color: Colors.deepPurple,
             ),
           ],
         ),
         actions: [
           IconButton(
-            icon: const Icon(CupertinoIcons.search, color: Colors.deepPurple,),
+            icon: const Icon(
+              CupertinoIcons.search,
+              color: Colors.deepPurple,
+            ),
             onPressed: () {},
           ),
           IconButton(
-            icon: const Icon(CupertinoIcons.list_dash, color: Colors.deepPurple,),
+            icon: const Icon(
+              CupertinoIcons.list_dash,
+              color: Colors.deepPurple,
+            ),
             onPressed: () {},
           ),
           IconButton(
-            icon: const Icon(CupertinoIcons.bell, color: Colors.deepPurple,),
+            icon: const Icon(
+              CupertinoIcons.bell,
+              color: Colors.deepPurple,
+            ),
             onPressed: () {},
           )
         ],
